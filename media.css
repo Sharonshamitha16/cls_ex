@@ -1,0 +1,17 @@
+
+body{
+    background-color: aqua;
+    font-size: 32px;
+}
+@media screen and (max-width:600px) {
+    body{
+        background-color: rgb(166, 255, 0);
+        font-size: 32px;
+    }   
+}
+@media screen and (orientation:landscape) {
+    body{
+        background-color: rgb(182, 8, 144);
+        font-size: 32px;
+    }   
+}
