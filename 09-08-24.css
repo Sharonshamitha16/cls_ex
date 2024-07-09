@@ -1,0 +1,37 @@
+.Container{
+    border: 2px solid black;
+    /*  flex - used for 1d alignment   grid -2d */
+    display: flex;
+    /* flex-direction: column; */
+    height: 50vh;
+    justify-content: center;
+    /* horizontal */
+    align-items:center; 
+    /* vertical */
+    background-color: aquamarine;
+
+    flex-shrink: 1;
+    /*  o means off 1 means on */
+    flex-grow: 0;
+    /* it grows the box */
+    flex-wrap: wrap;
+    flex-wrap: wrap-reverse;
+    /* it wraps in reverse order */
+    /* this if shrink goes down the box 
+     it maintains the height width provided if goes again it overflows so we use flex wrap */
+    /* this will help as responsive */
+    flex-basis: 200px;
+    /* min width or height it gives */
+}
+.box{
+    background-color: blue;
+    color: antiquewhite;
+    border: 2px solid black;
+    height: 100px;
+    width: 100px;
+}
+
+
+.item1{
+    order :1;
+}

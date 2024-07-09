@@ -1,0 +1,86 @@
+*{
+
+}
+
+h1{
+    color: aquamarine !important;
+}
+h1{
+    color: blue;
+}
+
+.head1{
+    color: rgb(42, 209, 209);
+}
+.head{
+    color:brown  
+  }
+/* 08-07-24 */
+  ol{
+    list-style: lower-latin ;
+    /* list-style-postion:shape-outside;
+    list-style-image: none
+     */
+    list-style-position: inside;
+    /* list-style-position: outside; */
+
+
+  }
+  p{
+    text-align: right;
+  }
+
+  /* ul :nth-child(2){
+    color: aqua;
+  }
+  ul:nth-child(odd){
+    color: blueviolet;
+  }
+  u:nth-child(2n+1){ 
+    /* odd */
+/* color:red;
+  } */
+
+  /* u:nth-child(3n+1){ 
+    /* 
+    leaves 4 and applies */
+  /* }  */ 
+
+/* 
+  ::marker{
+    color:brown;
+    content: "sub ";  */
+    /*  it prints the content side in list */
+  /* } */
+  /* it makes the sub divisons color styling */
+
+
+
+
+  ul li{
+    list-style: none;
+    text-align: right;
+    text-decoration: none;
+  }
+
+  .list{
+    background-color: antiquewhite;
+  }
+  .head{
+    height: 300px;
+    width: 300px;
+    padding :40px;
+    margin:40px;
+    background-color: aquamarine;
+  }
+  p{
+    background-color: blanchedalmond;
+  }
+span{
+    background-color: blueviolet;
+    padding: 30px;
+    display: inline-block;
+}
+
+
+
