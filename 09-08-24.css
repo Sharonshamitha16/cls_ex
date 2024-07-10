@@ -4,7 +4,7 @@
     display: flex;
     /* flex-direction: column; */
     height: 50vh;
-    justify-content: center;
+    /* justify-content: center; */
     /* horizontal */
     align-items:center; 
     /* vertical */
@@ -14,8 +14,8 @@
     /*  o means off 1 means on */
     flex-grow: 0;
     /* it grows the box */
-    flex-wrap: wrap;
-    flex-wrap: wrap-reverse;
+    /* flex-wrap: wrap;
+    flex-wrap: wrap-reverse; */
     /* it wraps in reverse order */
     /* this if shrink goes down the box 
      it maintains the height width provided if goes again it overflows so we use flex wrap */
@@ -25,11 +25,11 @@
 
 
     /* flex: 0%;  this is shorthand property*/
-      display: grid ;
+      /* display: grid ;
     grid-template-columns: auto auto;
     grid-template-rows:  100px ;
     row-gap: 10px;
-    column-gap: 10px;
+    column-gap: 10px; */
     /* gap : 10px this is  */
 }
 .box{

@@ -1,0 +1,44 @@
+.box{
+    height:100px;
+    width:100px;
+    background-color: aqua;
+    border-radius: 2px solid black;
+    /* transform: translateX(200px); */
+    /* line-height : 1.5 this will give space btw lines takes font size */
+    /* transform: translate(200px, 200px); */
+    /* transform:scale(500px); */
+    /* transform: rotateX(360deg);  */
+    /* transform: skew(120deg); */
+
+    transform: scale(4.5);
+    
+    animation: move 4s infinite 1s  reverse  ease-in;
+    /* animation: name duration timing-function delay iteration-count direction fill-mode; */
+}
+
+/* .box:hover{
+    transform: scale(4.5);
+} */
+
+@keyframes  move{
+0%{
+    transform: translate(0) rotate(0);
+    /* translate is for noving and rotate is for rotating it's given as 0 as it is in initial stage */
+    background-color:red;
+}
+
+25%{
+    transform: translate(100px) rotate(45deg);
+    background-color: brown;
+}
+
+50%{
+    transform: translate(200px) rotate(75deg);
+    background-color: blueviolet;
+}
+
+75%{
+    transform: translate(200px) rotate(90deg);
+}
+
+}
